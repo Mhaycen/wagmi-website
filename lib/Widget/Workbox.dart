@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:potrtfolio/Widget/work_custom_data.dart';
+import 'package:wagmi/Widget/work_custom_data.dart';
 
 class WorkBox extends StatelessWidget {
   @override
@@ -9,35 +9,33 @@ class WorkBox extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         WorkCustomData(
-          title: "Sandip Institute Of Engineering & Management Nashik",
+          title: "Community Stronghold, System set up ",
           subTitle:
-              "I am currently pursuing Bachelor's Degree in Computer Science and Engineering \nat Savitribai Phule Pune University",
-          duration: "2016 - Present",
+              "Building a strong community of developers and marketers, getting partnership with telegram for exclusive acces to their API. Building the Amazon-BSC Pipeline.",
+          duration: "March 2022",
         ),
         WorkCustomData(
-          title: "Flutter + Dart Development Winter Bootcamp",
+          title: "Poo Launch",
           subTitle:
-              "The Complete 2020 Flutter + Dart Winter Development Bootcamp at LCO Training Center,\nJaipur, Rajasthan (302017), Covering all the fundamental concepts for Flutter development",
-          duration: "Dec - 2019 to Feb - 2020",
+              "Getting our cloud containers ready, for real-time flow of data. Finishing up latest git pull requests",
+          duration: "Late March",
         ),
         WorkCustomData(
-          title:
-              "Freelancer - Flutter | Dart Mobile App Developer | UI - UX Designer",
+          title: "Mainstream Listings Partnership",
           subTitle:
-              "Flutter Developer and experienced programmer with an extensive history of designing and coding \nsolutions. Skilled in Google’s Flutter/Dart, Firebase App and Web development on a global scale. If you \nare looking for someone that you can trust that will complete your app on time and on budget, then \nplease contact me. I have been developing software for 1+ years and take pride in everything I do.",
-          duration: "Oct - 2019 to Nov - 2020",
+              "Making our Amazon Data Lake open sourced for research use. Finalising Parternship with Coingecko, where we help provide access to our Telegram Chat Data",
+          duration: "April 2022",
         ),
         WorkCustomData(
-          title: "Mentor at Contributor's Hack, 2020",
-          subTitle:
-              "Working as a mentor in HakinCode organization for Flutter CodeAsylums application \n where I can utilize my skills and be an asset to the organization",
-          duration: "Sep 2020 - Oct 2020",
+          title: "W-X Platform",
+          subTitle: "Launch App on our Website as well as Play Store/App Store",
+          duration: "April 2022",
         ),
         WorkCustomData(
-          title: "Flutter Intern at Mind Sports League | Gurgaon In",
+          title: "Deliver Solidity MasterClasses courses",
           subTitle:
-              "Building world class Poker Learning platform. Poker Sports League is India’s first poker league is to sportify the game of poker through a unique, team based format",
-          duration: "Nov - 2020 Present",
+              "Opening our Solidity courses made by dev members of our community ",
+          duration: "April 2022",
         ),
       ],
     );

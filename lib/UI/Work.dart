@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:potrtfolio/Widget/CustomText.dart';
-import 'package:potrtfolio/Widget/Workbox.dart';
+import 'package:wagmi/Widget/CustomText.dart';
+import 'package:wagmi/Widget/Workbox.dart';
 
 class Work extends StatefulWidget {
   @override
@@ -74,29 +74,39 @@ class _WorkState extends State<Work> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               CircleAvatar(
-                                backgroundColor: Colors.pink,
-                                child: FaIcon(FontAwesomeIcons.laptopHouse,
-                                    color: Colors.white),
+                                backgroundColor:
+                                    Color.fromARGB(237, 100, 255, 219),
+                                child: FaIcon(
+                                    FontAwesomeIcons.arrowAltCircleRight,
+                                    color: Color.fromARGB(255, 2, 2, 2)),
                               ),
                               CircleAvatar(
-                                backgroundColor: Colors.red,
-                                child: FaIcon(FontAwesomeIcons.freeCodeCamp,
-                                    color: Colors.white),
+                                backgroundColor:
+                                    Color.fromARGB(237, 100, 255, 219),
+                                child: FaIcon(
+                                    FontAwesomeIcons.arrowAltCircleRight,
+                                    color: Color.fromARGB(255, 2, 2, 2)),
                               ),
                               CircleAvatar(
-                                backgroundColor: Colors.brown,
-                                child: FaIcon(FontAwesomeIcons.laptopCode,
-                                    color: Colors.white),
+                                backgroundColor:
+                                    Color.fromARGB(237, 100, 255, 219),
+                                child: FaIcon(
+                                    FontAwesomeIcons.arrowAltCircleRight,
+                                    color: Color.fromARGB(255, 2, 2, 2)),
                               ),
                               CircleAvatar(
-                                backgroundColor: Colors.deepOrange,
-                                child: FaIcon(FontAwesomeIcons.coffee,
-                                    color: Colors.white),
+                                backgroundColor:
+                                    Color.fromARGB(237, 100, 255, 219),
+                                child: FaIcon(
+                                    FontAwesomeIcons.arrowAltCircleRight,
+                                    color: Color.fromARGB(255, 2, 2, 2)),
                               ),
                               CircleAvatar(
-                                backgroundColor: Colors.deepPurple,
-                                child: FaIcon(FontAwesomeIcons.dev,
-                                    color: Colors.white),
+                                backgroundColor:
+                                    Color.fromARGB(237, 100, 255, 219),
+                                child: FaIcon(
+                                    FontAwesomeIcons.arrowAltCircleRight,
+                                    color: Color.fromARGB(255, 2, 2, 2)),
                               ),
                             ],
                           )),

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:potrtfolio/Widget/CustomText.dart';
+import 'package:wagmi/Widget/CustomText.dart';
 
 class About extends StatelessWidget {
   Widget technology(BuildContext context, String text) {
@@ -29,7 +29,7 @@ class About extends StatelessWidget {
     var size = MediaQuery.of(context).size;
     return Container(
       height: size.height,
-      width:size.width - 100,
+      width: size.width - 100,
       child: Row(
         children: [
           //About me
@@ -52,7 +52,7 @@ class About extends StatelessWidget {
                       width: 12.0,
                     ),
                     CustomText(
-                      text: "About Me",
+                      text: "Communist Token",
                       textsize: 26.0,
                       color: Color(0xffCCD6F6),
                       fontWeight: FontWeight.w700,
@@ -77,21 +77,21 @@ class About extends StatelessWidget {
                   children: [
                     CustomText(
                       text:
-                          "Hello! I'm Tushar, a Freelancer based in Nashik, IN.\n\nI enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.\n\n",
+                          "We are a community of Blockchain Technology enthusiastes who upon grouping in the same Telegram chat decided to put an end to this massive greedy profit wave that has hit the BSC mainnet, undervaluing small projects and demeaning the image of this technology in general  \n\n",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
                       letterSpacing: 0.75,
                     ),
                     CustomText(
                       text:
-                          "Shortly currently, I am purshuing my Bachlor's degree in Computter science and Engineering at University of Pune, as well as doing freelancing where I work on a wide variety of interesting and meaningful projects on a daily basis.\n\n",
+                          "For us Blockchain hasn't reached the stage where people can harness the true financial freedom this technology has promised, our motives date back to the days of the CryptoPunks movement where a community turned an idea into a concrete implementation. The past year has introduced blockchain technology to non-techy people who are here to invest in project that are promised to help shape the future, however BSC got swarmed by baseless projects that use trendy and abused big tech words to market themselves, or re-using already opened source systems and algorithms from research papers and sell them for big bags, without having the slightest idea on how to implement them.We as a community are devoted to present to these new commers the means and tools they need to protect themselves from scams and baseless projects.\nOur goal is to make the crypto/blockchain underground space as safe as it can be.We want the non specialists to feel that blockchain is a safe investment as much as Real-Estate and Stocks/Forex market is. We offer unlimited access to all of our investor safety utilities by simply holding 3 million W\n\n",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
                       letterSpacing: 0.75,
                     ),
                     CustomText(
                       text:
-                          "Here are a few technologies I've been working with recently:\n\n",
+                          "All Algorithms we use and systems we built will be public sourced on our github, to help promote contributions and keep growing the vast dev community we have.\n\n",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
                       // fontWeight: FontWeight.w500,
@@ -99,39 +99,6 @@ class About extends StatelessWidget {
                     ),
                   ],
                 ),
-
-                Container(
-                  height: size.height * 0.15,
-                  width: size.width,
-                  child: Wrap(  
-                    children: [
-                      Container(
-                        width: size.width * 0.20,
-                        height: size.height * 0.15,
-                        child: Column(
-                          children: [
-                            technology(context, "Dart"),
-                            technology(context, "Flutter"),
-                            technology(context, "Firebase"),
-                            technology(context, "UI/UX (Adobe Xd)"),
-                          ],
-                        ),
-                      ),
-                      Container(
-                        width: size.width * 0.15,
-                        height: size.height * 0.15,
-                        child: Column(
-                          children: [
-                            technology(context, "C/C++, Java."),
-                            technology(context, "HTML & (S)CSS"),
-                            technology(context, "MYSQL"),
-                            technology(context, "Git - Github"),
-                          ],
-                        ),
-                      )
-                    ],
-                  ),
-                )
               ],
             ),
           ),
@@ -216,16 +183,16 @@ class _CustomImageAnimationState extends State<CustomImageAnimation> {
       child: Stack(
         children: [
           Container(
-            height: size.height / 2,
+            height: size.height / 5,
             width: size.width / 5,
             color: Colors.black54,
             child: Image(
               fit: BoxFit.cover,
-              image: AssetImage("images/pic1.jpeg"),
+              image: AssetImage("images/The-Cypherpunk-Manifesto-990x556.jpg"),
             ),
           ),
           Container(
-            height: size.height / 2,
+            height: size.height / 5,
             width: size.width / 5,
             color: customImageColor,
           ),
