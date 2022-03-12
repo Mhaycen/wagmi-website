@@ -269,7 +269,7 @@ class FeatureProject extends StatelessWidget {
                           children: [
                             CustomText(
                               text:
-                                  "\n Secure Machine Learning Driven Launchpad.NLP librairies we use preform quality control over key metrics ranging from KYC to auto-Audit, with the highest accuracy rates in the AI field",
+                                  "/**/\n\n ... Secure Machine Learning Driven Launchpad.NLP librairies we use preform quality control over key metrics ranging from KYC to auto-Audit, with the highest accuracy rates in the AI field....\n\n /**/ ",
                               textsize: 10.0,
                               color: Color.fromARGB(255, 62, 170, 76),
                               letterSpacing: 2.70,

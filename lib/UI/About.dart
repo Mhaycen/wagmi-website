@@ -52,7 +52,7 @@ class About extends StatelessWidget {
                       width: 12.0,
                     ),
                     CustomText(
-                      text: "Communist Token",
+                      text: "Culture Token",
                       textsize: 26.0,
                       color: Color(0xffCCD6F6),
                       fontWeight: FontWeight.w700,
