@@ -120,7 +120,8 @@ class FeatureProject extends StatelessWidget {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     color: Color(0xff0A192F),
-                    border: Border.all(color: Color(0xff64FFDA)),
+                    border:
+                        Border.all(color: Color.fromARGB(255, 228, 205, 73)),
                     borderRadius: BorderRadius.circular(6.0),
                   ),
 
@@ -182,7 +183,7 @@ class FeatureProject extends StatelessWidget {
                 Container(
                   child: Card(
                     elevation: 4.0,
-                    color: Color.fromARGB(190, 100, 255, 219),
+                    color: Color.fromARGB(255, 228, 205, 73),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10.0),
                     ),
@@ -223,7 +224,8 @@ class FeatureProject extends StatelessWidget {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     color: Color(0xff0A192F),
-                    border: Border.all(color: Color(0xff64FFDA)),
+                    border:
+                        Border.all(color: Color.fromARGB(255, 228, 205, 73)),
                     borderRadius: BorderRadius.circular(6.0),
                   ),
 
@@ -272,14 +274,14 @@ class FeatureProject extends StatelessWidget {
                               color: Color.fromARGB(255, 62, 170, 76),
                               letterSpacing: 2.70,
                             ),
-                            Spacer(),
-                            Flexible(
-                                flex: 3,
-                                child: Image.asset(
-                                  "images/openai-cover.png",
-                                  fit: BoxFit.contain,
-                                  alignment: Alignment.bottomCenter,
-                                ))
+                            // Spacer(),
+                            // Flexible(
+                            //     flex: 3,
+                            //     child: Image.asset(
+                            //       "assets/images/openai-cover.png",
+                            //       fit: BoxFit.contain,
+                            //       alignment: Alignment.bottomCenter,
+                            //     ))
                           ],
                         )
                       ],
@@ -297,7 +299,7 @@ class FeatureProject extends StatelessWidget {
                 Container(
                   child: Card(
                     elevation: 4.0,
-                    color: Color.fromARGB(190, 100, 255, 219),
+                    color: Color.fromARGB(255, 228, 205, 73),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10.0),
                     ),
@@ -334,7 +336,8 @@ class FeatureProject extends StatelessWidget {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     color: Color(0xff0A192F),
-                    border: Border.all(color: Color(0xff64FFDA)),
+                    border:
+                        Border.all(color: Color.fromARGB(255, 228, 205, 73)),
                     borderRadius: BorderRadius.circular(6.0),
                   ),
 
@@ -396,7 +399,7 @@ class FeatureProject extends StatelessWidget {
                 Container(
                   child: Card(
                     elevation: 4.0,
-                    color: Color.fromARGB(190, 100, 255, 219),
+                    color: Color.fromARGB(255, 228, 205, 73),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10.0),
                     ),
@@ -437,7 +440,8 @@ class FeatureProject extends StatelessWidget {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     color: Color(0xff0A192F),
-                    border: Border.all(color: Color(0xff64FFDA)),
+                    border:
+                        Border.all(color: Color.fromARGB(255, 228, 205, 73)),
                     borderRadius: BorderRadius.circular(6.0),
                   ),
 

@@ -7,7 +7,7 @@ class About extends StatelessWidget {
       children: [
         Icon(
           Icons.skip_next,
-          color: Color(0xff64FFDA).withOpacity(0.6),
+          color: Color.fromARGB(255, 228, 205, 73).withOpacity(0.6),
           size: 14.0,
         ),
         SizedBox(
@@ -45,7 +45,7 @@ class About extends StatelessWidget {
                     CustomText(
                       text: "01.",
                       textsize: 20.0,
-                      color: Color(0xff61F9D5),
+                      color: Color.fromARGB(255, 228, 205, 73),
                       fontWeight: FontWeight.w700,
                     ),
                     SizedBox(
@@ -116,7 +116,7 @@ class About extends StatelessWidget {
                     top: size.height * 0.12,
                     left: size.width * 0.120,
                     child: Card(
-                      color: Color(0xff61F9D5),
+                      color: Color.fromARGB(255, 228, 205, 73),
                       child: Container(
                         margin: EdgeInsets.all(2.75),
                         height: size.height / 2,
@@ -144,7 +144,7 @@ class CustomImageAnimation extends StatefulWidget {
 }
 
 class _CustomImageAnimationState extends State<CustomImageAnimation> {
-  Color customImageColor = Color(0xff61F9D5).withOpacity(0.5);
+  Color customImageColor = Color.fromARGB(255, 228, 205, 73).withOpacity(0.5);
   // ignore: unused_field
   int _enterCounter = 0;
   // ignore: unused_field
@@ -160,7 +160,7 @@ class _CustomImageAnimationState extends State<CustomImageAnimation> {
 
   void _incrementExit(PointerEvent details) {
     setState(() {
-      customImageColor = Color(0xff61F9D5).withOpacity(0.5);
+      customImageColor = Color.fromARGB(255, 228, 205, 73).withOpacity(0.5);
       _exitCounter++;
     });
   }

@@ -25,7 +25,7 @@ class _WorkState extends State<Work> {
               CustomText(
                 text: "02.",
                 textsize: 20.0,
-                color: Color(0xff61F9D5),
+                color: Color.fromARGB(255, 228, 205, 73),
                 fontWeight: FontWeight.w700,
               ),
               SizedBox(
@@ -61,7 +61,7 @@ class _WorkState extends State<Work> {
                       children: [
                         Center(
                           child: VerticalDivider(
-                            color: Color(0xff64FFDA),
+                            color: Color.fromARGB(255, 228, 205, 73),
                             thickness: 1.75,
                             width: 10,
                             indent: 10,
@@ -75,35 +75,35 @@ class _WorkState extends State<Work> {
                             children: [
                               CircleAvatar(
                                 backgroundColor:
-                                    Color.fromARGB(237, 100, 255, 219),
+                                    Color.fromARGB(255, 228, 205, 73),
                                 child: FaIcon(
                                     FontAwesomeIcons.arrowAltCircleRight,
                                     color: Color.fromARGB(255, 2, 2, 2)),
                               ),
                               CircleAvatar(
                                 backgroundColor:
-                                    Color.fromARGB(237, 100, 255, 219),
+                                    Color.fromARGB(255, 228, 205, 73),
                                 child: FaIcon(
                                     FontAwesomeIcons.arrowAltCircleRight,
                                     color: Color.fromARGB(255, 2, 2, 2)),
                               ),
                               CircleAvatar(
                                 backgroundColor:
-                                    Color.fromARGB(237, 100, 255, 219),
+                                    Color.fromARGB(255, 228, 205, 73),
                                 child: FaIcon(
                                     FontAwesomeIcons.arrowAltCircleRight,
                                     color: Color.fromARGB(255, 2, 2, 2)),
                               ),
                               CircleAvatar(
                                 backgroundColor:
-                                    Color.fromARGB(237, 100, 255, 219),
+                                    Color.fromARGB(255, 228, 205, 73),
                                 child: FaIcon(
                                     FontAwesomeIcons.arrowAltCircleRight,
                                     color: Color.fromARGB(255, 2, 2, 2)),
                               ),
                               CircleAvatar(
                                 backgroundColor:
-                                    Color.fromARGB(237, 100, 255, 219),
+                                    Color.fromARGB(255, 228, 205, 73),
                                 child: FaIcon(
                                     FontAwesomeIcons.arrowAltCircleRight,
                                     color: Color.fromARGB(255, 2, 2, 2)),

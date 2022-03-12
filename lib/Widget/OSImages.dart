@@ -7,7 +7,7 @@ class OSImages extends StatelessWidget {
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Container(
-       color: Color(0xff64FFDA).withOpacity(0.4),
+      color: Color.fromARGB(255, 228, 205, 73),
       child: Padding(
         padding: const EdgeInsets.all(2.75),
         child: Image(
