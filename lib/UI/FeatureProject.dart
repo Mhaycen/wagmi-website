@@ -162,7 +162,7 @@ class FeatureProject extends StatelessWidget {
                               text:
                                   "/***/\n100 Years Locked \n\n\n 1 billion supply\n\n\n Raising Floor :\n 1% of every transaction is contributed back to Liquidity and 2% of every transaction will be automatically added to the Manual Buyback and Burn wallet for manual token burns\n\n Anti-Whale :\nfunction setMaxTxAmount(uint256 maxTxAmount) external onlyOwner()\n"
                                   "{\n\n(maxTxAmount <= (40 * 10**6 * 10**9)'Max wallet should be less or euqal to 4% totalSupply \n\n...}'/**/",
-                              textsize: 10.0,
+                              textsize: 12.0,
                               color: Color.fromARGB(255, 62, 170, 76),
                               letterSpacing: 2.70,
                             ),
@@ -270,7 +270,7 @@ class FeatureProject extends StatelessWidget {
                             CustomText(
                               text:
                                   "/**/\n\n ... Secure Machine Learning Driven Launchpad.NLP librairies we use preform quality control over key metrics ranging from KYC to auto-Audit, with the highest accuracy rates in the AI field....\n\n /**/ ",
-                              textsize: 10.0,
+                              textsize: 12.0,
                               color: Color.fromARGB(255, 62, 170, 76),
                               letterSpacing: 2.70,
                             ),
@@ -382,7 +382,7 @@ class FeatureProject extends StatelessWidget {
                             CustomText(
                               text:
                                   "/**/\n\n....AI powered Trading platform with an auxiallary notification bot\n. The platform runs on Amazon cloud container and its fed periodically with proccesed data sources:  Historical Global trading data (BSC API), Market Sentiment Analysis (Telegram API), Global news with Goldstein Impact Scale system(GDELT API) , all of which are prcossed by Reinforcement Learning model , implementing Neural Network Graph/Decision tree fuzzy Logic......\n\n/**/",
-                              textsize: 10.0,
+                              textsize: 12.0,
                               color: Color.fromARGB(255, 62, 170, 76),
                               letterSpacing: 2.70,
                             ),
@@ -486,7 +486,7 @@ class FeatureProject extends StatelessWidget {
                             CustomText(
                               text:
                                   "/**/\n\n....Scam and HoneyPot checker Utility Connected to our Sagemaker Container. Notfies you with all of your holding's contract updates in Real-Time by continuoulsy pulling data our of BSC API and query the contracts addresses in bsc for data pulls. Keeping your wallet always healthy and safe ......\n\n/**/",
-                              textsize: 10.0,
+                              textsize: 12.0,
                               color: Color.fromARGB(255, 62, 170, 76),
                               letterSpacing: 2.70,
                             ),

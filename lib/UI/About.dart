@@ -84,17 +84,9 @@ class About extends StatelessWidget {
                     ),
                     CustomText(
                       text:
-                          "For us Blockchain hasn't reached the stage where people can harness the true financial freedom this technology has promised, our motives date back to the days of the CryptoPunks movement where a community turned an idea into a concrete implementation. The past year has introduced blockchain technology to non-techy people who are here to invest in project that are promised to help shape the future, however BSC got swarmed by baseless projects that use trendy and abused big tech words to market themselves, or re-using already opened source systems and algorithms from research papers and sell them for big bags, without having the slightest idea on how to implement them.We as a community are devoted to present to these new commers the means and tools they need to protect themselves from scams and baseless projects.\nOur goal is to make the crypto/blockchain underground space as safe as it can be.We want the non specialists to feel that blockchain is a safe investment as much as Real-Estate and Stocks/Forex market is. We offer unlimited access to all of our investor safety utilities by simply holding 3 million W\n\n",
+                          "For us Blockchain hasn't reached the stage where people can harness the true financial freedom this technology has promised, our motives date back to the days of the CypherPunk movement where a community turned BitCoin from an idea to concrete implementation, prompted the world to make change on how money is dealt with and produced, to fight against capitalism and greedy regulations. Fast forward, their successful venture has introduced blockchain technology to the everyday person who is here to invest in projects that are promised to help shape the future, however BSC got swarmed by baseless projects that use trendy and abused big tech words to market themselves, or re-using already opened source systems and algorithms from research papers and sell them for big bags, without having the slightest idea on how to implement them, nor have a promising long-lasting future  .We as a community are devoted to present to these new commers the means and tools they need to protect themselves from scams and baseless projects, and provide through our launchpad projects that aim to put advancement in the technology.\nOur goal is to make the crypto/blockchain underground space as safe as it can be.We want the non specialists to feel that blockchain is a safe investment as much as Real-Estate and Stocks/Forex market is. We offer unlimited access to all of our investor safety utilities by simply holding 3 million W\n\n",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
-                      letterSpacing: 0.75,
-                    ),
-                    CustomText(
-                      text:
-                          "All Algorithms we use and systems we built will be public sourced on our github, to help promote contributions and keep growing the vast dev community we have.\n\n",
-                      textsize: 16.0,
-                      color: Color(0xff828DAA),
-                      // fontWeight: FontWeight.w500,
                       letterSpacing: 0.75,
                     ),
                   ],
