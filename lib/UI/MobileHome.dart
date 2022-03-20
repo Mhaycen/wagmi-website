@@ -48,8 +48,8 @@ class _MobileHomeState extends State<MobileHome> {
                   currentAccountPicture: CircleAvatar(
                     child: Icon(Icons.person),
                   ),
-                  accountName: Text("Tushar Nikam"),
-                  accountEmail: Text("champ96k@gmail.com")),
+                  accountName: Text("WAGMI"),
+                  accountEmail: Text("https://t.me/W_A_G_M_I")),
               ListTile(
                 title: Text("Share"),
                 leading: Icon(Icons.share),
@@ -86,7 +86,7 @@ class _MobileHomeState extends State<MobileHome> {
                 height: size.height * 0.08,
               ),
               CustomText(
-                text: "Hi, my name is",
+                text: "What is",
                 textsize: 16.0,
                 color: Color(0xff41FBDA),
                 letterSpacing: 3.0,
@@ -95,7 +95,7 @@ class _MobileHomeState extends State<MobileHome> {
                 height: size.height * 0.02,
               ),
               CustomText(
-                text: "Tushar Nikam.",
+                text: "WAGMI",
                 textsize: 52.0,
                 color: Color(0xffCCD6F6),
                 fontWeight: FontWeight.w900,
@@ -104,7 +104,7 @@ class _MobileHomeState extends State<MobileHome> {
                 height: size.height * 0.04,
               ),
               CustomText(
-                text: "I build things for the Android and web.",
+                text: "",
                 textsize: 42.0,
                 color: Color(0xffCCD6F6).withOpacity(0.6),
                 fontWeight: FontWeight.w700,
@@ -117,7 +117,7 @@ class _MobileHomeState extends State<MobileHome> {
                 child: Wrap(
                   children: [
                     Text(
-                      "I'm a freelancer based in Nashik, IN specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.",
+                      "/\n/**Hi I'm not writing this to sound important I just want to be clear about\n my intentions. I used to love the bsc...in the past year  I've started to hate what \nit's turning into. Anyone who was here this time last year should know what I mean\n So I made wagmi I like this term and how its gained more significance over the past year\n I don't have any huge ambitions for wagmi as I know where I'm deploying it\n However I've designed wagmi as a rare gem and community based stronghold in the sea \n of capitalist refuse which currently swarms the chain\n I have got a friend to make a telegram group for the token t.me/w_a_g_mi\n I will join if wagmi reaches 1billion market cap and say wagmi\n lol thats pretty much it ill renounce ca and lock liq forever  due to the  turbulence of\n the year thus far\n Wagmi is a 100% comunity token with no dev tax all tax will go to liq\n and with 1 billion supply\n my dream is to see 1 wagmi = 1\$ or more.\n https://t.me/W_A_G_M_I\n Wagmi\n *\n*/",
                       style: TextStyle(
                         color: Colors.grey,
                         fontSize: 15.0,
@@ -188,7 +188,7 @@ class _MobileHomeState extends State<MobileHome> {
                             width: 12.0,
                           ),
                           CustomText(
-                            text: "About Me",
+                            text: "Culture Token",
                             textsize: 26.0,
                             color: Color(0xffCCD6F6),
                             fontWeight: FontWeight.w700,
@@ -213,7 +213,7 @@ class _MobileHomeState extends State<MobileHome> {
                         children: [
                           CustomText(
                             text:
-                                "Hello! I'm Tushar, a Freelancer based in Nashik, IN.\nI enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.\n",
+                                "We are a community of Blockchain Technology enthusiastes who upon grouping in the same Telegram chat decided to put an end to this massive greedy profit wave that has hit the BSC mainnet, undervaluing small projects and demeaning the image of this technology in general  \n\n",
                             textsize: 16.0,
                             color: Color(0xff828DAA),
                             fontWeight: FontWeight.w500,
@@ -221,15 +221,7 @@ class _MobileHomeState extends State<MobileHome> {
                           ),
                           CustomText(
                             text:
-                                "Shortly currently, I am purshuing my Bachlor's degree in Computter science and Engineering at University of Pune, as well as doing freelancing where I work on a wide variety of interesting and meaningful projects on a daily basis.\n",
-                            textsize: 16.0,
-                            color: Color(0xff828DAA),
-                            fontWeight: FontWeight.w500,
-                            letterSpacing: 0.75,
-                          ),
-                          CustomText(
-                            text:
-                                "Here are a few technologies I've been working with recently:\n\n",
+                                "For us Blockchain hasn't reached the stage where people can harness the true financial freedom this technology has promised, our motives date back to the days of the CypherPunk movement where a community turned BitCoin from an idea to concrete implementation, prompted the world to make change on how money is dealt with and produced, to fight against capitalism and greedy regulations. Fast forward, their successful venture has introduced blockchain technology to the everyday person who is here to invest in projects that are promised to help shape the future, however BSC got swarmed by baseless projects that use trendy and abused big tech words to market themselves, or re-using already opened source systems and algorithms from research papers and sell them for big bags, without having the slightest idea on how to implement them, nor have a promising long-lasting future  .We as a community are devoted to present to these new commers the means and tools they need to protect themselves from scams and baseless projects, and provide through our launchpad projects that aim to put advancement in the technology.\nOur goal is to make the crypto/blockchain underground space as safe as it can be.We want the non specialists to feel that blockchain is a safe investment as much as Real-Estate and Stocks/Forex market is. We offer unlimited access to all of our investor safety utilities by simply holding 3 million W\n\n",
                             textsize: 16.0,
                             color: Color(0xff828DAA),
                             fontWeight: FontWeight.w500,
@@ -240,36 +232,6 @@ class _MobileHomeState extends State<MobileHome> {
 
                       SizedBox(
                         height: size.height * 0.06,
-                      ),
-
-                      Container(
-                        width: size.width,
-                        alignment: Alignment.center,
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceAround,
-                          children: [
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              mainAxisAlignment: MainAxisAlignment.spaceAround,
-                              children: [
-                                technology(context, "Dart"),
-                                technology(context, "Flutter"),
-                                technology(context, "Firebase"),
-                                technology(context, "UI/UX (Adobe XD)"),
-                              ],
-                            ),
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              mainAxisAlignment: MainAxisAlignment.spaceAround,
-                              children: [
-                                technology(context, "C/C++"),
-                                technology(context, "HTML, & (S)Css"),
-                                technology(context, "MYSQL"),
-                                technology(context, "Java"),
-                              ],
-                            ),
-                          ],
-                        ),
                       ),
                     ],
                   ),

@@ -160,11 +160,11 @@ class FeatureProject extends StatelessWidget {
                           children: [
                             CustomText(
                               text:
-                                  "/***/\n100 Years Locked \n\n\n 1 billion supply\n\n\n Raising Floor :\n 1% of every transaction is contributed back to Liquidity and 2% of every transaction will be automatically added to the NULL address , anti-rug token\n\n Anti-Whale :\nfunction setMaxTxAmount(uint256 maxTxAmount) external onlyOwner()\n"
+                                  "/***/\n100 Years Locked \n\n 1 billion supply\n\n Raising Floor :\n 1% of every transaction is contributed back to Liquidity and 2% of every transaction will be automatically added to the NULL address , anti-rug token\n\n Anti-Whale :\nfunction setMaxTxAmount(uint256 maxTxAmount) external onlyOwner()\n"
                                   "{\n\n(maxTxAmount <= (40 * 10**6 * 10**9)'Max wallet should be less or euqal to 4% totalSupply \n\n...}'/**/",
-                              textsize: 12.0,
+                              textsize: 11.0,
                               color: Color.fromARGB(255, 62, 170, 76),
-                              letterSpacing: 2.70,
+                              letterSpacing: 2.0,
                             ),
                           ],
                         )

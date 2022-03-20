@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import 'package:wagmi/Model/Method.dart';
 import 'package:wagmi/UI/About.dart';
 import 'package:wagmi/UI/FeatureProject.dart';
+import 'package:wagmi/UI/Icons.dart';
 import 'package:wagmi/UI/Work.dart';
 import 'package:wagmi/Widget/AppBarTitle.dart';
 import 'package:wagmi/Widget/CustomText.dart';
@@ -12,6 +13,23 @@ import 'package:wagmi/Widget/MainTiitle.dart';
 import 'package:wagmi/Widget/OSImages.dart';
 import 'package:scroll_to_index/scroll_to_index.dart';
 import 'package:wagmi/Model/metamask.dart';
+import 'package:wagmi/UI/Icons.dart';
+
+//  class SizeConfig {
+//           static MediaQueryData _mediaQueryData;
+//           static double screenWidth;
+//           static double screenHeight;
+//           static double blockSizeHorizontal;
+//           static double blockSizeVertical;
+
+//           void init(BuildContext context) {
+//            _mediaQueryData = MediaQuery.of(context);
+//            screenWidth = _mediaQueryData.size.width;
+//            screenHeight = _mediaQueryData.size.height;
+//            blockSizeHorizontal = screenWidth / 100;
+//            blockSizeVertical = screenHeight / 100;
+//           }
+//          }
 
 class HomePage extends StatefulWidget {
   @override
@@ -94,12 +112,13 @@ class _HomePageState extends State<HomePage> {
                         child: Row(
                           children: [
                             IconButton(
-                                icon: Icon(
-                                  Icons.change_history,
-                                  size: 32.0,
-                                  color: Color.fromARGB(255, 228, 205, 73),
-                                ),
-                                onPressed: () {}),
+                              icon: Image.asset('assets/images/cake-token.png'),
+                              iconSize: 50,
+                              onPressed: () {
+                                method.launchURL(
+                                    "https://pancakeswap.finance/swap?outputCurrency=0x9dcfc24914f3085a9ef52f75bca45c0b32dd0a7e");
+                              },
+                            ),
                             Spacer(),
                             Expanded(
                               child: Padding(
@@ -441,7 +460,7 @@ class _HomePageState extends State<HomePage> {
                                                 100,
                                             //color: Colors.white,
                                             child: Text(
-                                              "Designed & Built by Mohcine Miftah: Lead dev operations",
+                                              "Contract Address: 0x9dcfc24914f3085a9ef52f75bca45c0b32dd0a7e",
                                               style: TextStyle(
                                                 color: Colors.white
                                                     .withOpacity(0.4),
