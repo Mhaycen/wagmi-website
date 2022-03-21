@@ -460,7 +460,7 @@ class _HomePageState extends State<HomePage> {
                                                 100,
                                             //color: Colors.white,
                                             child: Text(
-                                              "Contract Address: 0x9dcfc24914f3085a9ef52f75bca45c0b32dd0a7e",
+                                              "Contract: https://bscscan.com/address/0x9dcfc24914f3085a9ef52f75bca45c0b32dd0a7e#code",
                                               style: TextStyle(
                                                 color: Colors.white
                                                     .withOpacity(0.4),
