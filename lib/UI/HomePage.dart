@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:wagmi/Model/Method.dart';
 import 'package:wagmi/UI/About.dart';
 import 'package:wagmi/UI/FeatureProject.dart';
@@ -458,16 +459,29 @@ class _HomePageState extends State<HomePage> {
                                                     .size
                                                     .width -
                                                 100,
-                                            //color: Colors.white,
-                                            child: Text(
-                                              "Contract: https://bscscan.com/address/0x9dcfc24914f3085a9ef52f75bca45c0b32dd0a7e#code",
-                                              style: TextStyle(
-                                                color: Colors.white
-                                                    .withOpacity(0.4),
-                                                letterSpacing: 1.75,
-                                                fontSize: 14.0,
+                                            color: Colors.white,
+                                            child: InkWell(
+                                              child: new Text(
+                                                'CA : 0x9dcfc24914f3085a9ef52f75bca45c0b32dd0a7e',
+                                                style: TextStyle(
+                                                  color: Colors.white
+                                                      .withOpacity(0.4),
+                                                  letterSpacing: 1.75,
+                                                  fontSize: 14.0,
+                                                ),
                                               ),
+                                              onTap: () => launch(
+                                                  'https://bscscan.com/address/0x9dcfc24914f3085a9ef52f75bca45c0b32dd0a7e#code'),
                                             ),
+                                            // child: Text(
+                                            //   "Contract: https://bscscan.com/address/0x9dcfc24914f3085a9ef52f75bca45c0b32dd0a7e#code",
+                                            //   style: TextStyle(
+                                            //     color: Colors.white
+                                            //         .withOpacity(0.4),
+                                            //     letterSpacing: 1.75,
+                                            //     fontSize: 14.0,
+                                            //   ),
+                                            // ),
                                           ),
                                         ],
                                       ),
