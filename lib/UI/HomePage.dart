@@ -459,7 +459,7 @@ class _HomePageState extends State<HomePage> {
                                                     .size
                                                     .width -
                                                 100,
-                                            color: Colors.white,
+                                            color: Color.fromARGB(0, 7, 7, 7),
                                             child: InkWell(
                                               child: new Text(
                                                 'CA : 0x9dcfc24914f3085a9ef52f75bca45c0b32dd0a7e',
